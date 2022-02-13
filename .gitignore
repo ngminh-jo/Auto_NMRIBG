@@ -7,11 +7,12 @@ __pycache__/
 **.cython-39.pyc
 # C extensions
 *.so
-.vscode
+*.vscode
 **.DS_Store
 .DS_Store
 *.DS_Store
 .gitignore
+.vscode
 # Distribution / packaging
 .Python
 build/
