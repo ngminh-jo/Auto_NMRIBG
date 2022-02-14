@@ -24,8 +24,8 @@ This preprocess.py is developed for data processing and provides the data for an
 - information_df: The information of all imported csv files.
 For example:
 ```python
-source_1 = r'/Users/nguyenminhhieu/Documents/Job/HIWI_JOB/source_live_data'
-destination_1 = r'/Users/nguyenminhhieu/Documents/Job/HIWI_JOB/live_data'
+source_1 = r'/sourefolder'
+destination_1 = r'/destinationfolder'
 start_date_time_1 = datetime(2021, 6, 15, 0, 0, 0, 0)
 data = Bag_data(source_1, destination_1, start_date_time_1)
 data.__repr__
@@ -47,8 +47,8 @@ This store_results.py is developed for storing results for later analysis.
 For example:
 # create a bagdata instance
 ```python
-source_1 = r'/Users/nguyenminhhieu/Documents/Job/HIWI_JOB/source_live_data'
-destination_1 = r'/Users/nguyenminhhieu/Documents/Job/HIWI_JOB/live_data'
+source_1 = r'/sourefolder'
+destination_1 = r'/destinationfolder'
 start_date_time_1 = datetime(2021, 6, 15, 0, 0, 0, 0)
 bagdata_1 = preprocess.Bag_data(source_1, destination_1, start_date_time_1)
 bagdata_1.__repr__
